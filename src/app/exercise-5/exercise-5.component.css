@@ -1,0 +1,6 @@
+.grid {
+    display: grid;
+    width: 540px;
+    grid-gap: 10px;
+    grid-template: 100px 100px / repeat(auto-fill, minmax(100px, 1fr));
+}

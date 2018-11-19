@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template: 200px 200px / repeat(3, 100px);
+}
+
+.item {
+    background-color: aquamarine;
+}
+
+.item:nth-of-type(1) {
+    justify-self: center;
+    align-self: center;
+}
+
+.item:nth-of-type(2) {
+    justify-self: end;
+}
+
+.item:nth-of-type(3) {
+    align-self: center;
+}
+
+.item:nth-of-type(4) {
+    justify-self: end;
+    align-self: start;
+}
+
+.item:nth-of-type(5) {
+    justify-self: center;
+    align-self: end;
+}
+
+.item:nth-of-type(6) {
+    justify-self: center;
+}

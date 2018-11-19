@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template: repeat(2, 100px) / repeat(4, auto);
+    height: 300px;
+    border: 2px solid;
+    justify-items: end;
+    align-items: center;
+}
+
+.container {
+    border: 3px solid red;
+}
